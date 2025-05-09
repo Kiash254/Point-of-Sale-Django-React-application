@@ -1,19 +1,3 @@
-# Project Structure:
-# pos_system/
-# ├── manage.py
-# ├── pos_project/
-# │   ├── __init__.py
-# │   ├── settings.py
-# │   ├── urls.py
-# │   └── wsgi.py
-# └── pos_app/
-#     ├── __init__.py
-#     ├── admin.py
-#     ├── apps.py
-#     ├── models.py
-#     ├── serializers.py
-#     ├── urls.py
-#     └── views.py
 
 # pos_project/settings.py
 import os
@@ -51,7 +35,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'pos_project.urls'
+ROOT_URLCONF = 'POS.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +53,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'pos_project.wsgi.application'
+WSGI_APPLICATION = 'POS.wsgi.application'
 
 DATABASES = {
     'default': {
