@@ -8,7 +8,7 @@ import MainLayout from './layouts/MainLayout';
 import AuthLayout from './layouts/AuthLayout';
 
 // Pages
-import Dashboard from './pages/Dashboard';
+import Dashboard from './pages/Dashboaxrd';
 import Products from './pages/Products';
 import Categories from './pages/Categories';
 import Customers from './pages/Customers';
